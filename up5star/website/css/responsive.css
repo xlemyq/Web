@@ -1,0 +1,23 @@
+@media (max-width: 1024px) {
+  .hero { padding-top: 80px; }
+  .navbar { padding: 12px 0; }
+}
+
+@media (max-width: 768px) {
+  .nav-links { display: none; }
+  .nav-links.is-open { display: flex; flex-direction: column; align-items: flex-start; background: #0c0f14; position: absolute; top: 72px; right: 16px; padding: 16px; border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; }
+  .section { padding: 64px 0; }
+  .section-header { align-items: flex-start; }
+  .hero { grid-template-columns: 1fr; }
+  .process-step { flex-direction: column; }
+  .metrics { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
+  .footer .cols { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+  .cookie-banner { width: 94%; }
+}
+
+@media (max-width: 540px) {
+  .hero h1 { font-size: 32px; }
+  .btn { width: 100%; justify-content: center; }
+  .calculator .row { grid-template-columns: 1fr; }
+  .section-title { font-size: 26px; }
+}

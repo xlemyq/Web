@@ -1,0 +1,7 @@
+USEFUL TOOLS
+- PageSpeed Insights / Lighthouse – performance i CWV
+- Screaming Frog – crawl i audyt techniczny
+- Ahrefs / Semrush – analiza słów kluczowych i linków
+- Google Looker Studio – dashboardy SEO
+- Microsoft Clarity / Hotjar – heatmapy i UX
+- UptimeRobot – monitoring dostępności

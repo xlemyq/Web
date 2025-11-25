@@ -1,0 +1,5 @@
+COOKIE BANNER LOGIKA
+- Kategorie: necessary (domyślnie włączone), analytics (GA4), chat (Tawk.to).
+- Decyzja zapisywana w localStorage pod kluczem up5star-consent-v1.
+- Po akceptacji: ładowanie GA4 i Tawk.to + event consent_update do dataLayer.
+- Po odrzuceniu: brak ładowania zewnętrznych skryptów, tylko cookies techniczne.

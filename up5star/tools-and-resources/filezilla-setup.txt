@@ -1,0 +1,7 @@
+FILEZILLA KONFIGURACJA
+Host: ftp.twojadomena.pl
+Port: 21 (lub 22 dla SFTP)
+Protokół: FTP lub SFTP
+Tryb logowania: Normalny
+Użytkownik/Hasło: dane z panelu hostingu
+Katalog zdalny: /public_html

@@ -1,0 +1,7 @@
+QUICK START – wdrożenie up5star
+1) Wypakuj paczkę ZIP i wgraj katalog website/ do public_html/ na hostingu.
+2) Upewnij się, że .htaccess jest aktywny (Apache) i SSL włączony.
+3) Zaktualizuj identyfikator GA4 w index.html i cookies.js (G-XXXXXXX).
+4) Wklej identyfikator Tawk.to w cookies.js (embed.tawk.to/xxxx).
+5) Odśwież stronę i sprawdź konsolę przeglądarki – brak błędów JS.
+6) Zweryfikuj formularze (walidacja) i baner cookies.

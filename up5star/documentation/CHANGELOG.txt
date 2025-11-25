@@ -1,0 +1,4 @@
+# Changelog
+
+## [1.0.0] - 2024-05-01
+- Inicjalne wydanie serwisu up5star z pełnym zestawem stron, kalkulatorem SEO, banerem cookies i dokumentacją wdrożeniową.
