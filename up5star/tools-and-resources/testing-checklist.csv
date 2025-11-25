@@ -1,0 +1,9 @@
+Kategoria,Test,Status
+UX,Sprawdź jasność CTA,
+UI,Kontrast tekstu i tła,
+Responsywność,Mobile menu działa,
+Performance,Core Web Vitals poniżej progów,
+Formularze,Walidacja pól i wysyłka,
+Cookies,Baner wyświetla się i zapisuje preferencje,
+SEO,Meta title/description na każdej stronie,
+Analityka,Eventy CTA w dataLayer,

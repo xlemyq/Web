@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /tmp/
+Sitemap: https://up5star.pl/sitemap.xml

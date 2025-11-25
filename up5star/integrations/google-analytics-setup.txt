@@ -1,0 +1,5 @@
+GA4 SETUP
+1. Utwórz usługę GA4 i skopiuj identyfikator (G-XXXXXXX).
+2. W pliku website/index.html podmień identyfikator w skrypcie gtag.
+3. W cookies.js w sekcji scriptsMap.analytics zaktualizuj identyfikator.
+4. Zweryfikuj w czasie rzeczywistym, czy odsłony są rejestrowane (po akceptacji cookies).

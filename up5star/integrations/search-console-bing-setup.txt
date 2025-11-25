@@ -1,0 +1,5 @@
+SEARCH CONSOLE & BING
+1. Zweryfikuj domenę w Google Search Console (rekord DNS lub plik HTML w website/).
+2. Dodaj sitemap: https://up5star.pl/sitemap.xml.
+3. Włącz raporty Core Web Vitals i ręczne działania.
+4. Powtórz proces w Bing Webmaster Tools (rekord TXT lub plik w root).
