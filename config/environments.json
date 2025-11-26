@@ -1,0 +1,26 @@
+{
+  "development": {
+    "baseUrl": "http://localhost:8080",
+    "env": "development",
+    "logLevel": "debug",
+    "recaptchaSiteKey": "DEV_RECAPTCHA_SITE_KEY",
+    "recaptchaSecret": "DEV_RECAPTCHA_SECRET",
+    "mailRecipient": "kontakt@up5star.pl"
+  },
+  "staging": {
+    "baseUrl": "https://staging.up5star.pl",
+    "env": "staging",
+    "logLevel": "info",
+    "recaptchaSiteKey": "STAGING_RECAPTCHA_SITE_KEY",
+    "recaptchaSecret": "STAGING_RECAPTCHA_SECRET",
+    "mailRecipient": "kontakt@up5star.pl"
+  },
+  "production": {
+    "baseUrl": "https://www.up5star.pl",
+    "env": "production",
+    "logLevel": "warn",
+    "recaptchaSiteKey": "PROD_RECAPTCHA_SITE_KEY",
+    "recaptchaSecret": "PROD_RECAPTCHA_SECRET",
+    "mailRecipient": "kontakt@up5star.pl"
+  }
+}
