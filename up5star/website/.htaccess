@@ -12,7 +12,7 @@ Header set X-Content-Type-Options "nosniff"
 Header set X-Frame-Options "SAMEORIGIN"
 Header set Referrer-Policy "strict-origin-when-cross-origin"
 Header set X-XSS-Protection "1; mode=block"
-Header set Content-Security-Policy "default-src 'self'; script-src 'self' https://www.googletagmanager.com https://cdnjs.cloudflare.com https://embed.tawk.to; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-src https://embed.tawk.to;"
+Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://cdnjs.cloudflare.com https://embed.tawk.to; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://www.google-analytics.com https://region1.analytics.google.com https://embed.tawk.to https://tawk.to wss://*.tawk.to; frame-src https://embed.tawk.to;"
 
 # Cache statycznych zasobów
 <FilesMatch "\.(js|css|png|jpg|jpeg|gif|svg|woff2)$">
