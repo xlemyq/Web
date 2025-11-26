@@ -1,0 +1,3 @@
+logs/
+backend/rate_limit.db
+.DS_Store
