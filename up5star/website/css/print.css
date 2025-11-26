@@ -1,0 +1,7 @@
+@media print {
+  header, nav, .header, .footer, .btn, .cta, .cta-group, .newsletter { display: none !important; }
+  body { color: #000; background: #fff; font-family: 'Montserrat', sans-serif; }
+  a { color: #000; text-decoration: underline; }
+  .section { padding: 12px 0; }
+  .card, .hero-card, .dark-panel { box-shadow: none !important; border: 1px solid #dcdcdc; background: #fff; }
+}

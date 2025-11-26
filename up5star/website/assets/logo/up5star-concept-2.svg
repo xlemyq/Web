@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Stylized numeral five with star">
+  <rect width="256" height="256" fill="#0A0A0A" rx="24"/>
+  <path fill="#D4AF37" d="M56 64h144v24H80v36h86c22 0 34 12 34 30c0 16-12 30-36 30H56v-24h104c10 0 14-4 14-10s-4-10-12-10H56z"/>
+  <path fill="#E8E8E8" d="M206 62l7 18h19l-15 11 6 18-15-11-15 11 6-18-15-11h19z"/>
+</svg>
