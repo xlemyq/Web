@@ -1,0 +1,21 @@
+/* Print styles */
+
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+    font-family: "Inter", Arial, sans-serif;
+  }
+
+  header, .hero__cta, .footer, .navbar { display: none !important; }
+
+  a { color: #000; text-decoration: underline; }
+
+  .section { padding: 24px 0; }
+
+  .card, .callout, .pricing-card {
+    box-shadow: none;
+    border: 1px solid #e0e0e0;
+    background: #fff;
+  }
+}
