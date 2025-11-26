@@ -1,7 +1,0 @@
-DESIGN GUIDE – up5star
-- Kolory: tło #0c0f14, powierzchnie #10151d/#141b26, akcent złoty #f2c94c, sekundarny #7ed2f6, akcent fiolet #9b51e0.
-- Typografia: Inter (body), Playfair Display (nagłówki specjalne). Waga 600–800 dla nagłówków, 400–500 dla tekstu.
-- Styl: premium, ciemny motyw z akcentami złota, miękkie cienie i zaokrąglenia 16–32px.
-- Ikony: proste, linearne, złote gwiazdy i checkmarki.
-- Zdjęcia: fotografia wysokiej jakości, wnętrza premium, zarządy, detale produktów luksusowych.
-- Logo: wariant poziomy i stacked, ikonka gwiazdy w favicon. Zachować margines bezpieczeństwa x wysokość litery „u”.

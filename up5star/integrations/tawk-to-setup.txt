@@ -1,5 +1,0 @@
-TAWK.TO SETUP
-1. Załóż konto w Tawk.to, dodaj nową stronę (up5star.pl).
-2. Skopiuj identyfikator widżetu (fragment po embed.tawk.to/).
-3. W pliku cookies.js podmień URL w scriptsMap.chat na poprawny adres widżetu.
-4. Przetestuj po akceptacji cookies funkcjonalność chatu.

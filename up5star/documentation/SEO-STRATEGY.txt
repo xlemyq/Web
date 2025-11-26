@@ -1,8 +1,0 @@
-SEO STRATEGY – up5star
-- Pillar pages: pozycjonowanie, audyt SEO, content marketing, link building, optymalizacja techniczna.
-- Clustery: Core Web Vitals, digital PR, international SEO, e-commerce premium, lead gen B2B.
-- Słowa kluczowe: agencja SEO premium, audyt SEO 360, link building PR, SEO dla luksusu, SEO fintech.
-- Meta: tytuły do 60 znaków, opisy do 150 znaków, główne słowo kluczowe w H1 i Title.
-- Internal linking: breadcrumbs, CTA do kontaktu i kalkulatora, linki między usługami.
-- Schema: Organization, Service, Article, FAQPage, BreadcrumbList na kluczowych stronach.
-- KPI: ruch organiczny, frazy Top3/Top10, leady kwalifikowane, współczynnik konwersji.
