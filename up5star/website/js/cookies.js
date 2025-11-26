@@ -1,8 +1,10 @@
 const COOKIE_KEY = 'up5star-consent-v1';
+const ANALYTICS_ID = 'G-XXXXXXX';
 const scriptsMap = {
-  analytics: () => loadScript('https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX', { async: true }),
   chat: () => loadScript('https://embed.tawk.to/xxxx/default'),
 };
+
+let analyticsInitialized = false;
 
 function loadScript(src, attrs = {}) {
   const script = document.createElement('script');
@@ -21,11 +23,25 @@ function getConsent() {
   return saved ? JSON.parse(saved) : null;
 }
 
+function initAnalytics() {
+  if (analyticsInitialized) return;
+
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { window.dataLayer.push(arguments); };
+
+  const script = loadScript(`https://www.googletagmanager.com/gtag/js?id=${ANALYTICS_ID}`, { async: true });
+  script.addEventListener('load', () => {
+    window.gtag('js', new Date());
+    window.gtag('config', ANALYTICS_ID);
+  });
+
+  analyticsInitialized = true;
+}
+
 function applyConsent(consent) {
   if (consent.analytics) {
-    scriptsMap.analytics();
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({ event: 'consent_update', analytics_storage: 'granted' });
+    initAnalytics();
+    window.gtag && window.gtag('consent', 'update', { analytics_storage: 'granted' });
   }
   if (consent.chat) {
     scriptsMap.chat();
