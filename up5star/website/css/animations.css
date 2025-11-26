@@ -1,0 +1,30 @@
+:root {
+  --anim-duration-short: 220ms;
+  --anim-duration-medium: 420ms;
+  --anim-duration-long: 720ms;
+  --anim-ease: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.fade-in { animation: fade-in var(--anim-duration-medium) var(--anim-ease) forwards; }
+.fade-up { animation: fade-up var(--anim-duration-medium) var(--anim-ease) forwards; }
+.fade-left { animation: fade-left var(--anim-duration-medium) var(--anim-ease) forwards; }
+.fade-right { animation: fade-right var(--anim-duration-medium) var(--anim-ease) forwards; }
+.scale-hover { transition: transform var(--anim-duration-short) var(--anim-ease); }
+.scale-hover:hover { transform: translateY(-4px) scale(1.01); }
+.stagger > * { opacity: 0; animation: fade-in var(--anim-duration-medium) var(--anim-ease) forwards; }
+.stagger > *:nth-child(1) { animation-delay: 60ms; }
+.stagger > *:nth-child(2) { animation-delay: 120ms; }
+.stagger > *:nth-child(3) { animation-delay: 180ms; }
+.stagger > *:nth-child(4) { animation-delay: 240ms; }
+
+@keyframes fade-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fade-up { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fade-left { from { opacity: 0; transform: translateX(-24px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes fade-right { from { opacity: 0; transform: translateX(24px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+
+.smooth-scroll { scroll-behavior: smooth; }
+.transition-base { transition: var(--anim-duration-short) var(--anim-ease); }
+
+.reveal-on-scroll { opacity: 0; transform: translateY(18px); }
+.reveal-on-scroll.is-visible { opacity: 1; transform: translateY(0); transition: var(--anim-duration-medium) var(--anim-ease); }

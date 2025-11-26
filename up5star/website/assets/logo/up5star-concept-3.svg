@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Arrow rising toward star">
+  <defs>
+    <linearGradient id="arrow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#b48c2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" fill="#0A0A0A" rx="24"/>
+  <polygon fill="url(#arrow)" points="64 156 156 156 156 110 216 176 156 242 156 198 64 198"/>
+  <polygon fill="#228BE6" points="80 38 99 88 153 88 110 118 128 168 80 136 32 168 50 118 7 88 61 88" transform="translate(90 8) scale(0.6)"/>
+</svg>
