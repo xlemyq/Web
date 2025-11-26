@@ -1,0 +1,14 @@
+{
+  "production": {
+    "recaptcha_v3_secret": "local-development-secret-key-not-for-production",
+    "contact_email_to": "kontakt@up5star.pl",
+    "contact_email_from": "noreply@up5star.pl",
+    "contact_email_subject_prefix": "[UP5Star] Formularz kontaktowy"
+  },
+  "development": {
+    "recaptcha_v3_secret": "local-development-secret-key-not-for-production",
+    "contact_email_to": "dev@up5star.pl",
+    "contact_email_from": "noreply-dev@up5star.pl",
+    "contact_email_subject_prefix": "[UP5Star-DEV] Formularz kontaktowy"
+  }
+}
